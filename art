@@ -1,0 +1,701 @@
+\subsubsection{Second Workload Scenario}
+
+The results of this scenario, up to 9 patients/hour, are shown from
+\ref{subfig:es8-1} to \ref{subfig:km8-1}. The ES result is shown
+in \ref{subfig:es8-1}, where the red triangle was the minimum. 
+\begin{figure}[H]
+\noindent \begin{centering}
+\includegraphics[width=0.95\columnwidth,height=0.25\paperheight]{figs4/v0/6400-602-50-exh-LoS-min}
+\par\end{centering}
+
+\caption{Average LoS obtained by the ES. The red triangle was the minimum.
+\label{subfig:es8-1}}
+\end{figure}
+
+
+The PA result is shown in \ref{subfig:pipe8-1}, where seven regions
+can be clearly seen and the red triangle is the minimum.
+\begin{figure}[H]
+\noindent \begin{centering}
+\includegraphics[width=0.95\columnwidth,height=0.25\paperheight]{figs4/v0/6400-602-50-pipe-LoS-min}
+\par\end{centering}
+
+\caption{Average LoS obtained by the PA. The red triangle was the minimum.
+\label{subfig:pipe8-1}}
+\end{figure}
+ The most important is the bottom region, in which the average minimum
+LoS was around 1 hour. There were 180 configurations (from a total
+of 602 in the feasible region) in this region, which is the one where
+the minimum was.
+
+The \ref{fig:3D-scattered-graph-50} shows another way to visualise
+the connectivity characteristic of the reduced regions found by the
+proposed methodology. The axes of such graph are the equivalent operational
+patient-service time \foreignlanguage{american}{(t{*})} of a ``single
+one'' sanitary professional of each sanitary staff configuration
+(the first column of \ref{subtab:As-pipe} to \ref{subtab:Ds-pipe},
+where they were ordered by the PA \ref{eq:Pipeline formula}). In
+such figure, the points of interest were the green points, which lie
+in the region of interest, where the minimum was, which can be seen
+in black triangle. It can be seen that it was not necessary to search
+in the whole feasible region, but only in the green connected region.
+\begin{figure}[H]
+\noindent \begin{centering}
+\includegraphics[width=0.95\columnwidth,height=0.2\paperheight]{figs4/v0/6400-602-50-3D-scatter-LoS2}
+\par\end{centering}
+
+\caption{3D scattered graph shows the average LoS index of the third workload
+scenario (9 patients/hour). The average LoS index is expressed in
+colour in hours.\label{fig:3D-scattered-graph-50}}
+\end{figure}
+
+
+Finally, after applied the PA method, the \textquotedblleft{}reduced exhaustive search\textquotedblright{}
+was performed in the reduced region identified. The optimum
+found per each method: the ES and the PA
+methods are presented in \ref{tab:8p-a}, where the sanitary staff
+configuration (doctors, nurses, and admission personnel), their associated
+average minimum LoS, and cost configuration are shown. The two optima
+ independently found were the same. 
+
+\vspace*{-.2cm}
+
+\begin{table}[H]
+\caption{Optimum staff configurations that got the average minimum LoS for
+this workload scenario (up to 9 patients hourly), where S is Senior
+and J is Junior. This optimum sanitary staff configuration is shown
+in red triangle in \ref{subfig:es8-1} and in black triangle in \ref{fig:3D-scattered-graph-50}.}
+
+\centering{}%
+\begin{tabular}{cccccc>{\centering}p{2.8cm}}
+\hline 
+Method & � & LoS (hrs) & D & N & A & Run time (hrs)
+
+4 Pthreads\tabularnewline
+\hline 
+ES & 3,350  & 0.55 & 4J & 2S & 1S,1J & 1.57\tabularnewline
+PA & 3,350  & 0.55 & 4J & 2S & 1S,1J & 0.39\tabularnewline
+\hline 
+\end{tabular}\label{tab:8p-a} 
+\end{table}
+
+\clearpage{}
+
+\subsubsection{Third Workload Scenario}
+
+The results of this scenario, up to 13 patients/hour, are shown from
+\ref{subfig:es13-1} to \ref{subfig:km13-1}. The ES result is shown
+in \ref{subfig:es13-1}, where the red triangle was the minimum.
+\begin{figure}[H]
+\noindent \begin{centering}
+\includegraphics[width=0.95\columnwidth,height=0.25\paperheight]{figs4/v0/6400-602-75-exh-LoS-min}
+\par\end{centering}
+
+\caption{Average LoS obtained by the ES. The red triangle was the minimum.
+\label{subfig:es13-1}}
+\end{figure}
+
+The PA result is shown in \ref{subfig:pipe13-1}, where many regions
+can be clearly seen and the red triangle is the minimum. 
+\begin{figure}[H]
+\noindent \begin{centering}
+\includegraphics[width=0.95\columnwidth,height=0.25\paperheight]{figs4/v0/6400-602-75-pipe-LoS-min}
+\par\end{centering}
+
+\caption{Average LoS obtained by the PA. The red triangle was the minimum.
+\label{subfig:pipe13-1}}
+\end{figure}
+ The most important is the bottom region, in which the average minimum
+LoS was less than 2 hours. There were 21 configurations (from a total
+of 602 in the feasible region) in this region, which is the one where
+the minimum was.
+
+The \ref{fig:3D-scattered-graph-75} shows another way to visualise
+the connectivity characteristic of the reduced regions found by the
+the proposed methodology. The axes of such graph are the equivalent
+operational patient-service time \foreignlanguage{american}{(t{*})}
+of a ``single one'' sanitary professional of each sanitary staff
+configuration (the first column of \ref{subtab:As-pipe} to \ref{subtab:Ds-pipe},
+where they were ordered by the PA \ref{eq:Pipeline formula}). In
+such figure, the points of interest were the green points, which lie
+in the region of interest, where the minimum was, which can be seen
+in black triangle. It can be seen that it was not necessary to search
+in the whole feasible region, but only in the green connected region.
+\begin{figure}[h]
+\noindent \centering{}\includegraphics[width=0.88\columnwidth,height=0.2\paperheight]{figs4/v0/6400-602-75-3D-scatter-LoS2}
+\caption{3D scattered graph shows the average LoS index of the third workload
+scenario (13 patients/hour). The average LoS index is expressed in
+colour in hours. \label{fig:3D-scattered-graph-75}}
+\end{figure}
+
+Finally, after applied the PA method, the \textquotedblleft{}reduced exhaustive search\textquotedblright{}
+was performed in the reduced region identified. The optimum
+found per each methods: the ES and the PA are presented in \ref{tab:12p-a}, where the sanitary staff
+configuration (doctors, nurses, and admission personnel), their associated
+average minimum LoS, and cost configuration are shown. The two optima
+independently found were the same. 
+
+\begin{table}[h]
+\caption{Optimum staff configurations that got the average minimum LoS for
+this workload scenario (up to 13 patients hourly), where S is Senior
+and J is Junior. This optimum sanitary staff configuration is shown
+in red triangle in \ref{subfig:es13-1} and in black triangle in \ref{fig:3D-scattered-graph-75}.}
+
+\begin{centering}
+\begin{tabular}{cccccc>{\centering}p{2.8cm}}
+\hline 
+Method & � & LoS (hrs) & D & N & A & Run time (hrs)
+
+4 Pthreads\tabularnewline
+\hline 
+ES & 3,250 & 1.33 & 4J & 1S,1J & 2S & 2.45\tabularnewline
+PA & 3,250 & 1.33 & 4J & 1S,1J & 2S & 0.16\tabularnewline
+\hline 
+\end{tabular}
+\par\end{centering}
+
+\label{tab:12p-a} 
+\end{table}
+
+\clearpage{}
+
+\subsubsection{Fourth Workload Scenario}
+
+The results of this scenario, up to 17 patients/hour, are shown from
+\ref{subfig:es17-1} to \ref{subfig:km17-1}. The ES result is shown
+in \ref{subfig:es17-1}, where the red triangle is the minimum. 
+\begin{figure}[H]
+\noindent \begin{centering}
+\includegraphics[width=0.95\columnwidth,height=0.25\paperheight]{figs4/v0/6400-602-100-exh-LoS-min}
+\par\end{centering}
+
+\caption{Average LoS obtained by the ES. The red triangle was the minimum.
+\label{subfig:es17-1}}
+\end{figure}
+
+The PA result is shown in \ref{subfig:pipe17-1}, where many regions
+can be clearly seen and the red triangle is the minimum.
+\begin{figure}[H]
+\noindent \begin{centering}
+\includegraphics[width=0.95\columnwidth,height=0.25\paperheight]{figs4/v0/6400-602-100-pipe-LoS-min}
+\par\end{centering}
+
+\caption{Average LoS obtained by the PA. The red triangle was the minimum.
+\label{subfig:pipe17-1}}
+\end{figure}
+ The most important is the bottom region, in which the average minimum
+LoS was around than 3 hours. There were 21 configurations (from a
+total of 602 in the feasible region) in this region, which is the
+one where the maximum was.
+
+The \ref{fig:3D-scattered-graph-100} shows another way to visualise
+the connectivity characteristic of the reduced regions found by the
+proposed methodology. The axes of such graph are the equivalent operational
+patient-service time \foreignlanguage{american}{(t{*})} of a ``single
+one'' sanitary professional of each sanitary staff configuration
+(the first column of \ref{subtab:As-pipe} to \ref{subtab:Ds-pipe},
+where they were ordered by the PA \ref{eq:Pipeline formula}). In
+such figure, the points of interest were the green points, which lie
+in the region of interest, where the minimum was, which can be seen
+in black triangle. It can be seen that it was not necessary to search
+in the whole feasible region, but only in the green connected region.
+\begin{figure}[h]
+\noindent \centering{}\includegraphics[width=0.88\columnwidth,height=0.2\paperheight]{figs4/v0/6400-602-100-3D-scatter-LoS2}
+\caption{3D scattered graph shows the average LoS index of the third workload
+scenario (17 patients/hour). The average LoS index is expressed in
+colour in hours. \label{fig:3D-scattered-graph-100}}
+\end{figure}
+
+Finally, after applied the PA method, the \textquotedblleft{}reduced exhaustive search\textquotedblright{}
+was performed in the reduced region identified.The optimum
+found per each method: the ES and the PA are presented in \ref{tab:16p-a}, where the sanitary staff
+configuration (doctors, nurses, and admission personnel), their associated
+average minimum LoS, and cost configuration are shown. The two optima
+independently found were the same. 
+
+\begin{table}[h]
+\caption{Optimum staff configurations that got the average minimum LoS for
+this workload scenario (up to 17 patients hourly), where S is Senior
+and J is Junior. This optimum sanitary staff configuration is shown
+in red triangle in \ref{subfig:es17-1} and in black triangle in \ref{fig:3D-scattered-graph-100}.}
+
+\begin{centering}
+\begin{tabular}{cccccc>{\centering}p{2.8cm}}
+\hline 
+Method & � & LoS (hrs) & D & N & A & Run time (hrs)
+
+4 Pthreads\tabularnewline
+\hline 
+ES & 3,450  & 2.3  & 4J & 3J & 2S & 3.42\tabularnewline
+PA & 3,450 & 2.3 & 4J & 3J & 2S & 0.15\tabularnewline
+\hline 
+\end{tabular}
+\par\end{centering}
+
+\label{tab:16p-a} 
+\end{table}
+
+\clearpage{}
+
+\subsection{Throughput Index}
+
+The second objective set was to maximise number of attended patients
+per day (Throughput) in the ED, with cost configuration constraint
+less or equal to 3,500 �. This index is expressed mathematically in
+\ref{eq:Throughput index}:\vspace*{-0.125cm}
+\begin{equation}
+\begin{aligned} & {\text{Maximise patients attended}} &  & f(D,N,A)\\
+ & \text{subject to} &  & D_{cost}+N_{cost}+A_{cost}\in Cost\leq3,500\:\text{�}
+\end{aligned}
+\label{eq:Throughput index}
+\end{equation}
+
+It is worth noting that each of the plotted points were obtained running
+the ED simulator as many times as points are. Each plotted point corresponds
+to each of the 602 staff configurations (out of 1,134) that satisfy
+the cost restriction.
+
+\subsubsection{First Workload Scenario}
+
+The results of this scenario, up to 4 patients/hour, are shown from
+\ref{subfig:es4-2} to \ref{subfig:km4-2}. \ref{subfig:es4-2} shows
+ES results. The red triangles were the maxima.
+\begin{figure}[H]
+\centering{}\vspace*{-0.2cm}\includegraphics[width=0.9\columnwidth,height=0.19\paperheight]{figs4/v02/6400-602-25-exh-throughput-max}
+\caption{Average number of attended patients obtained by the ES method. The
+red triangles were the maxima. \label{subfig:es4-2}}
+\end{figure}
+ \vspace*{-0.2cm}
+
+\begin{figure}[H]
+\centering{}\vspace*{-0.2cm}\includegraphics[width=0.9\columnwidth,height=0.19\paperheight]{figs4/v02/6400-602-25-pipe-Throughput-max}
+\caption{Average number of attended patients obtained by the PA. The red triangles
+were the maxima. \label{subfig:pipe4-2}}
+\end{figure}
+ The PA result is shown in \ref{subfig:pipe4-2}, where three regions
+can be clearly seen and the red triangles were the maxima. The most
+important is the top region, in which the average maximum Throughput
+was more than 80 attended patients. There were 440 configurations
+(from a total of 602 in the feasible region) in this region, which
+was the one where the maxima were.
+
+Finally, after applied the PA method, the \textquotedblleft{}reduced exhaustive search\textquotedblright{}
+was performed in the reduced region identified. The optimum
+found per each method: the ES and the PA
+are presented in \ref{tab:4p-b}, where the sanitary staff
+configuration (doctors, nurses, and admission personnel), their associated
+average maximum Throughput, and cost configuration are shown. The
+two optima independently found were the same. 
+\begin{table}[H]
+\caption{Optimum staff configurations that got the average maximum Throughput
+for this workload scenario (up to 4 patients hourly), where S is Senior
+and J is Junior. These optimum sanitary staff configurations are shown
+in red triangle in \ref{subfig:es4-2}.}
+
+\begin{centering}
+\begin{tabular}{cc>{\centering}p{2cm}ccc>{\centering}p{2.8cm}}
+\hline 
+Method & � & \#attended patients & D & N & A & Run time (hrs)
+
+4 Pthreads\tabularnewline
+\hline 
+ES & 3,050 & 86 & 2S & 1S,1J & 1S & 0.91\tabularnewline
+PA & 3,050 & 86 & 2S & 1S,1J & 1S & 0.63\tabularnewline
+\hline 
+\end{tabular}
+\par\end{centering}
+
+\label{tab:4p-b} 
+\end{table}
+
+\subsubsection{Second Workload Scenario}
+
+The results of this scenario, up to 9 patients/hour, are shown from
+\ref{subfig:es8-2} to \ref{subfig:km8-2}. The ES result is shown
+in \ref{subfig:es8-2}, where the red triangle was the maximum. 
+\begin{figure}[H]
+\centering{}\includegraphics[width=0.95\columnwidth,height=0.25\paperheight]{figs4/v02/6400-602-50-exh-throughput-max}
+\caption{Average number of attended patients obtained by the ES method. The
+red triangle was the maximum.\label{subfig:es8-2}}
+\end{figure}
+
+
+The PA result is shown in \ref{subfig:pipe8-2}, where many regions
+can be seen and the red triangle was the maximum. 
+\begin{figure}[H]
+\centering{}\includegraphics[width=0.95\columnwidth,height=0.25\paperheight]{figs4/v02/6400-602-50-pipe-Throughput-max}
+\caption{Average number of attended patients obtained by the PA. The red triangles
+were the maximum.\label{subfig:pipe8-2}}
+\end{figure}
+ The most important is the top region, in which the average maximum
+Throughput was more than 150 attended patients. There were 180 configurations
+(from a total of 602 in the feasible region) in this region, which
+was the one where the maximum was.
+
+Finally, after applied the PA method, the \textquotedblleft{}reduced exhaustive search\textquotedblright{}
+was performed in the reduced region identified. The optimum
+found per each method: the ES and the PA
+are presented in \ref{tab:8p-b}, where the sanitary staff
+configuration (doctors, nurses, and admission personnel), their associated
+average maximum Throughput, and cost configuration are shown. The
+two optima independently found were the same.
+
+\begin{table}[H]
+\caption{Optimum staff configurations that got the average maximum Throughput
+for this workload scenario (up to 9 patients hourly), where S is Senior
+and J is Junior. These optimum sanitary staff configurations are shown
+in red triangle in \ref{subfig:es8-2}.}
+
+\begin{centering}
+\begin{tabular}{cc>{\centering}p{2cm}ccc>{\centering}p{2.8cm}}
+\hline 
+Method & � & \#attended patients & D & N & A & Run time (hrs)
+
+4 Pthreads\tabularnewline
+\hline 
+ES & 3,350 & 163 & 1S,2J & 2S & 1S,1J & 1.59\tabularnewline
+PA & 3,350 & 163 & 1S,2J & 2S & 1S,1J & 0.39\tabularnewline
+\hline 
+\end{tabular}
+\par\end{centering}
+
+\label{tab:8p-b} 
+\end{table}
+
+\subsubsection{Third Workload Scenario}
+
+The results of this scenario, up to 13 patients/hour, are shown from
+\ref{subfig:es12-2} to \ref{subfig:km12-2}. The ES result is shown
+in \ref{subfig:es12-2}, where the red triangle was the maximum. 
+
+The PA result is shown in \ref{subfig:pipe12-2}, many regions can
+be seen and the red triangle was the maximum. The most important is
+the top region, in which the average maximum Throughput was more than
+200 attended patients. There were 21 configurations (from a total
+of 602 in the feasible region) in this region, which is the one where
+the maximum was.
+
+\begin{figure}[H]
+\centering{}\includegraphics[width=0.95\columnwidth,height=0.25\paperheight]{figs4/v02/6400-602-75-exh-throughput-max}
+\caption{Average number of attended patients obtained by the ES method. The
+red triangle was the maximum. \label{subfig:es12-2}}
+\end{figure}
+ 
+\begin{figure}[H]
+\centering{}\includegraphics[width=0.95\columnwidth,height=0.25\paperheight]{figs4/v02/6400-602-75-pipe-Throughput-max}
+\caption{Average number of attended patients obtained by the PA. The red triangles
+were the maximum.\label{subfig:pipe12-2}}
+\end{figure}
+
+Finally, after applied the PA method, the \textquotedblleft{}reduced exhaustive search\textquotedblright{}
+was performed in the reduced region identified. The optimum
+found per each method: the ES and the PA are presented in \ref{tab:12p-b}, where the sanitary staff
+configuration (doctors, nurses, and admission personnel), and their
+associated average maximum Throughput, and cost configuration are
+shown. The two optima independently found were the same.
+
+\begin{table}[H]
+\caption{Optimum staff configurations that got the average maximum Throughput
+for this workload scenario (up to 13 patients hourly), where S is
+Senior and J is Junior. This optimum sanitary staff configuration
+is shown in red triangle in \ref{subfig:es12-2}.}
+
+\begin{centering}
+\begin{tabular}{cc>{\centering}p{2cm}ccc>{\centering}p{2.8cm}}
+\hline 
+Method & � & \#attended patients & D & N & A & Run time (hrs)
+
+4 Pthreads\tabularnewline
+\hline 
+ES & 3,200 & 205 & 4J & 2S & 1S & 2.46\tabularnewline
+PA & 3,200 & 205 & 4J & 2S & 1S & 0.13\tabularnewline
+\hline 
+\end{tabular}
+\par\end{centering}
+
+\label{tab:12p-b}
+\end{table}
+
+\subsubsection{Fourth Workload Scenario}
+
+The results of this scenario, up to 17 patients/hour, are shown from
+\ref{subfig:es16-2} to \ref{subfig:km16-2}. The ES result is shown
+in \ref{subfig:es16-2}, where the red triangle was the maximum. 
+\begin{figure}[H]
+\centering{}\includegraphics[width=0.95\columnwidth,height=0.25\paperheight]{figs4/v02/6400-602-100-exh-throughput-max}
+\caption{Average number of attended patients obtained by the ES method. The
+red triangle was the maximum.\label{subfig:es16-2}}
+\end{figure}
+
+
+The PA result is shown in \ref{subfig:pipe16-2}, many regions can
+be seen and the red triangle was the maximum. The most important is
+the top region, in which the average maximum Throughput was more than
+200 attended patients. There were 21 configurations (from a total
+of 602 in the feasible region) in this region, which is the one where
+the maximum was.
+\begin{figure}[H]
+\centering{}\includegraphics[width=0.95\columnwidth,height=0.25\paperheight]{figs4/v02/6400-602-100-pipe-Throughput-max}
+\caption{Average number of attended patients obtained by the PA. The red triangles
+were the maximum.\label{subfig:pipe16-2}}
+\end{figure}
+
+Finally, after applied the PA method, the \textquotedblleft{}reduced exhaustive search\textquotedblright{}
+was performed in the reduced region identified. The optimum
+found per each method: the ES and the PA are presented in \ref{tab:16p-b}, where the sanitary staff
+configuration (doctors, nurses, and admission personnel), their associated
+average maximum Throughput, and cost configuration are shown. The
+two optima independently found were the same.
+
+\begin{table}[h]
+\caption{Optimum staff configurations that got the average maximum Throughput
+for this workload scenario (up to 17 patients hourly), where S is
+Senior and J is Junior. This optimum sanitary staff configuration
+is shown in red triangle in \ref{subfig:es16-2}.}
+
+\begin{centering}
+\begin{tabular}{cc>{\centering}p{2cm}ccc>{\centering}p{2.8cm}}
+\hline 
+Method & � & \#attended patients & D & N & A & Run time (hrs)
+
+4 Pthreads\tabularnewline
+\hline 
+ES & 3,400 & 221 & 4J & 3J & 1S,1J & 3.43\tabularnewline
+PA & 3,400 & 221 & 4J & 3J & 1S,1J & 0.10\tabularnewline
+\hline 
+\end{tabular}
+\par\end{centering}
+
+\label{tab:16p-b} 
+\end{table}
+
+\subsection{CLoS Index}
+
+The third objective set was to minimise a compound index: $Cost\times LoS$,
+(CLoS), without any restriction, except the minimum and maximum number
+of admission personnel, nurses, and doctors stated in \ref{subtab:As}
+to \ref{subtab:Ds}. This index is expressed mathematically in \ref{eq:CLoS index}:
+
+\begin{equation}
+\begin{aligned} & {\text{Minimise }CLoS} &  & f(D,N,A)\end{aligned}
+\label{eq:CLoS index}
+\end{equation}
+
+As a consequence of not having any constraint, 1,134 ($14D*9N*9A$)
+staff configurations, that represent the whole search space, were
+tested for each of the four workload scenarios of incoming patients
+stated in \ref{tab:scenarios}. Each of the plotted points were obtained
+running the ED simulator as many times those points are, 1,134.
+
+\subsubsection{First Workload Scenario}
+
+The results of this scenario, up to 4 patients/hour, are shown from
+\ref{subfig:es4-3} to \ref{subfig:km4-3}. The 3D scattered graphics
+shown the average minimum CLoS index by its colour. 
+\begin{figure}[H]
+\centering{}\includegraphics[width=1\columnwidth,height=0.2\paperheight]{figs4/v03/6400-602-25-Cost_times_LoS-exh-min}
+\caption{Average CLoS obtained by the ES method. The black triangle was the
+minimum. CLoS units are in thousands. \label{subfig:es4-3}}
+\end{figure}
+The green colour represents the value in the vicinity of the optimum,
+the lighter green colours were the most relevant. The ES result is
+shown in \ref{subfig:es4-3}, where the black triangle was the minimum. 
+
+\begin{figure}[H]
+\centering{}\includegraphics[width=1\columnwidth,height=0.2\paperheight]{figs4/v03/6400-602-25-pipe-CLoS_min}
+\caption{Average CLoS obtained by the PA. The black triangle was the minimum.
+CLoS units are in thousands.\label{subfig:pipe4-3}}
+\end{figure}
+The PA result is shown in \ref{subfig:pipe4-3}, where the black triangle
+was the minimum. Several regions can be seen. The most important was
+where the black triangle was. There were 316 configurations (from
+a total of 1,134) in this region, which is the one where the minimum
+was.
+
+Finally, after applied the PA method, the \textquotedblleft{}reduced exhaustive search\textquotedblright{}
+was performed in the reduced region identified. The optimum
+found per each method: the ES and the PA are presented in \ref{tab:4p-c}, where the sanitary staff
+configuration (doctors, nurses, and admission personnel), their associated
+average minimum CLoS, and cost configuration are shown. The two
+optima independently found were the same. %
+{} 
+
+\begin{table}[H]
+\caption{Optimum staff configurations that got the average minimum CLoS for
+this workload scenario (up to 4 patients hourly), where S is Senior
+and J is Junior. This optimum sanitary staff configuration is shown
+in black triangle in \ref{subfig:es4-3}.}
+
+\begin{centering}
+\begin{tabular}{cccccc>{\centering}p{2.8cm}}
+\hline 
+Method & � & CLoS & D & N & A & Run time (hrs)
+
+32 Pthreads\tabularnewline
+\hline 
+ES & 1,500  & $1.03{}^{6}$ & 2J & 1J & 1J & 0.46\tabularnewline
+PA & 1,500 & $1.03{}^{6}$ & 2J & 1J & 1J & 0.13\tabularnewline
+\hline 
+\end{tabular}
+\par\end{centering}
+
+\label{tab:4p-c} 
+\end{table}
+
+\subsubsection{Second Workload Scenario}
+
+The results of this scenario, up to 9 patients/hour, are shown from
+\ref{subfig:es8-3} to \ref{subfig:km8-3}. The 3D scattered graphics
+shown the average minimum CLoS index by its colour. The green colour
+represents the value in the vicinity of the optimum. The ES result
+is shown in \ref{subfig:es8-3}, where the black triangle was the
+minimum. 
+\begin{figure}[H]
+\centering{}\includegraphics[width=1\columnwidth,height=0.19\paperheight]{figs4/v03/6400-602-50-Cost_times_LoS-exh-min}
+\caption{Average CLoS obtained by the ES method. The black triangle was the
+minimum. CLoS units are in thousands.\label{subfig:es8-3}}
+\end{figure}
+
+The PA result is shown in \ref{subfig:pipe8-3}, where the black triangle
+was the minimum. Several regions can be seen. The most important was
+where the black triangle was. There were 429 configurations (from
+a total of 1,134) in this region, which is the one where the minimum
+was.
+\begin{figure}[H]
+\centering{}\includegraphics[width=1\columnwidth,height=0.19\paperheight]{figs4/v03/6400-602-50-pipe-CLoS_min}
+\caption{Average CLoS obtained by the PA. The black triangle was the minimum.
+CLoS units are in thousands. \label{subfig:pipe12-3} }
+\end{figure}
+
+Finally, after applied the PA method, the \textquotedblleft{}reduced exhaustive search\textquotedblright{}
+was performed in the reduced region identified. The optimum
+found per each method: the ES and the PA are presented in \ref{tab:8p-c}, where the sanitary staff
+configuration (doctors, nurses, and admission personnel), their associated
+average minimum CLoS, and cost configuration are shown. The two
+optima independently found were the same.
+
+\begin{table}[H]
+\caption{Optimum staff configurations that got the average minimum CLoS for
+this workload scenario (up to 9 patients hourly), where S is Senior
+and J is Junior. This optimum sanitary staff configuration is shown
+in black triangle in \ref{subfig:es8-3}.}
+
+\begin{centering}
+\begin{tabular}{cccccc>{\centering}p{2.8cm}}
+\hline 
+Method & � & CLoS & D & N & A & Run time (hrs)
+
+32 Pthreads\tabularnewline
+\hline 
+ES & 3,050 & $1.78{}^{6}$ & 4J & 1S,1J & 1J  & 0.72\tabularnewline
+PA & 3,050 & $1.78{}^{6}$ & 4J & 1S,1J & 1J  & 0.27\tabularnewline
+\hline 
+\end{tabular}
+\par\end{centering}
+
+\label{tab:8p-c}
+\end{table}
+
+\subsubsection{Third Workload Scenario}
+
+The results of this scenario, up to 13 patients/hour, are shown from
+\ref{subfig:es12-3} to \ref{subfig:km12-3}. The 3D scattered graphics
+shown the average minimum CLoS index by its colour. The green colour
+represents the value in the vicinity of the optimum. The ES result
+is shown in \ref{subfig:es12-3}, where the black triangle was the
+minimum. 
+\begin{figure}[H]
+\centering{}\includegraphics[width=1\columnwidth,height=0.19\paperheight]{figs4/v03/6400-602-75-Cost_times_LoS-exh-min}
+\caption{Average CLoS obtained by the ES method. The black triangle was the
+minimum. CLoS units are in thousands.\label{subfig:es12-3}}
+\end{figure}
+
+The PA result is shown in \ref{subfig:pipe12-3}, where the black
+triangle was the minimum. The most important region was where the
+black triangle was, which was the minimum. There were 397 configurations
+(from a total of 1,134) in this region. 
+\begin{figure}[H]
+\centering{}\includegraphics[width=1\columnwidth,height=0.19\paperheight]{figs4/v03/6400-602-75-pipe-CLoS_min}
+\caption{Average CLoS obtained by the PA. The black triangle was the minimum.
+CLoS units are in thousands. \label{subfig:pipe12-3} }
+\end{figure}
+
+Finally, after applied the PA method, the \textquotedblleft{}reduced exhaustive search\textquotedblright{}
+was performed in the reduced region identified. The optimum
+found per each method: the ES and the PA are presented in \ref{tab:16p-c}, where the sanitary staff
+configuration (doctors, nurses, and admission personnel), their associated
+average minimum CLoS, and cost configuration are shown. The two
+optima independently found were the same.
+
+\begin{table}[H]
+\caption{Optimum staff configurations that got the average minimum CLoS for
+this workload scenario (up to 13 patients hourly), where S is Senior
+and J is Junior. This optimum sanitary staff configuration is shown
+in black triangle in \ref{subfig:es12-3}.}
+
+\begin{centering}
+\begin{tabular}{cccccc>{\centering}p{2.8cm}}
+\hline 
+Method & � & CLoS & D & N & A & Run time (hrs)
+
+32 Pthreads\tabularnewline
+\hline 
+ES & 5,400 & $2.72{}^{6}$ & 4S & 2S & 2S  & 0.95\tabularnewline
+PA & 5,400 & $2.72{}^{6}$ & 4S & 2S & 2S  & 0.33\tabularnewline
+\hline 
+\end{tabular}
+\par\end{centering}
+
+\label{tab:12p-c}
+\end{table}
+
+\subsubsection{Fourth Workload Scenario}
+
+The results of this scenario, up to 17 patients/hour, are shown from
+\ref{subfig:es16-3} to \ref{subfig:km16-3}. The 3D scattered graphics
+shown the average minimum CLoS index by its colour. 
+\begin{figure}[H]
+\centering{}\includegraphics[width=1\columnwidth,height=0.19\paperheight]{figs4/v03/6400-602-100-Cost_times_LoS-exh-min}
+\caption{Average CLoS obtained by the ES method. The black triangle was the
+minimum. CLoS units are in thousands.\label{subfig:es16-3}}
+\end{figure}
+The green colour represents the value in the vicinity of the optimum.
+The ES result is shown in \ref{subfig:es16-3}, where the black triangle
+was the minimum. 
+
+The PA result is shown in \ref{subfig:pipe16-3}, where the black
+triangle was the minimum. Several regions can be seen. The most important
+was where the black triangle was. There were 538 configurations (from
+a total of 1,134) in this region, which is the one where the minimum
+was.
+\begin{figure}[H]
+\centering{}\includegraphics[width=1\columnwidth,height=0.19\paperheight]{figs4/v03/6400-602-100-pipe-CLoS_min}
+\caption{Average CLoS obtained by the PA. The black triangle was the minimum.
+CLoS units are in thousands. \label{subfig:pipe16-3}}
+\end{figure}
+
+Finally, after applied the PA method, the \textquotedblleft{}reduced exhaustive search\textquotedblright{}
+was performed in the reduced region identified. The optimum
+found per each method: the ES and the PA are presented in \ref{tab:16p-c}, where the sanitary staff
+configuration (doctors, nurses, and admission personnel), their associated
+average minimum CLoS, and cost configuration are shown. The two
+optima independently found were the same.
+
+\begin{table}[H]
+\caption{Optimum staff configurations that got the average minimum CLoS for
+this workload scenario (up to 17 patients hourly), where S is Senior
+and J is Junior. It is shown in black triangle in \ref{subfig:es16-3}.}
+
+\centering{}\label{tab:16p-c}%
+\begin{tabular}{cccccc>{\centering}p{2.8cm}}
+\hline 
+Method & � & CLoS & D & N & A & Run time (hrs)
+
+32 Pthreads\tabularnewline
+\hline 
+ES & 1,000 & $5.59^{6}$ & 1S & 1S & 1S  & 0.97\tabularnewline
+PA & 1,000 & $5.59^{6}$ & 1S & 1S & 1S  & 0.45\tabularnewline
+\hline 
+\end{tabular}
+\end{table}
+

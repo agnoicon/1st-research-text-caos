@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99d (TeX Live 2014)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: SWJ-bis copy.aux
+The style file: unsrt.bst
+Database file #1: Phd-refs.bib
+Warning--I didn't find a database entry for "Hancock:1979p28"
+Warning--I didn't find a database entry for "Jacobson:1999p109"
+Warning--I didn't find a database entry for "Lu:2009p19"
+Warning--I didn't find a database entry for "Ruohonen:2006p453"
+Warning--I didn't find a database entry for "Weng:2011p1231"
+Warning--I didn't find a database entry for "Hutzschenreuter:2009p320"
+Warning--I didn't find a database entry for "Persson:2005p260"
+Warning--I didn't find a database entry for "Manel:2011p1870"
+Warning--I didn't find a database entry for "Fu:2002p192"
+You've used 8 entries,
+            1791 wiz_defined-function locations,
+            521 strings with 5656 characters,
+and the built_in function-call counts, 2335 in all, are:
+= -- 226
+> -- 79
+< -- 4
++ -- 29
+- -- 21
+* -- 144
+:= -- 334
+add.period$ -- 26
+call.type$ -- 8
+change.case$ -- 7
+chr.to.int$ -- 0
+cite$ -- 8
+duplicate$ -- 117
+empty$ -- 234
+format.name$ -- 21
+if$ -- 555
+int.to.chr$ -- 0
+int.to.str$ -- 8
+missing$ -- 9
+newline$ -- 43
+num.names$ -- 8
+pop$ -- 31
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 70
+stack$ -- 0
+substring$ -- 179
+swap$ -- 42
+text.length$ -- 4
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 24
+width$ -- 9
+write$ -- 94
+(There were 9 warnings)

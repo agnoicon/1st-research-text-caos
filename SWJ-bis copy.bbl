@@ -1,0 +1,57 @@
+\begin{thebibliography}{1}
+
+\bibitem{national2007}
+{Institute of Medicine (IoM)} and {Committee on the Future of Emergency Care in
+  the United States Health System}.
+\newblock {\em Hospital-Based Emergency Care: At the Breaking Point}.
+\newblock The National Academies Press, Washington, D.C., 2007.
+
+\bibitem{Lynn1991287}
+Stephan~G Lynn and Arthur~L Kellermann.
+\newblock Critical decision making: Managing the emergency department in an
+  overcrowded hospital.
+\newblock {\em Annals of Emergency Medicine}, 20(3):287--92, 1991.
+
+\bibitem{Saunders:1989p134}
+Charles~E. Saunders, Paul~K. Makens, and Larry~J. Leblanc.
+\newblock Modeling emergency department operations using advanced computer
+  simulation systems.
+\newblock {\em Annals of Emergency Medicine}, 18(2):134--40, 1989.
+
+\bibitem{Ahmed:2009p936}
+Mohamed~A. Ahmed and Talal~M. Alkhamis.
+\newblock Simulation optimization for an emergency department healthcare unit
+  in {K}uwait.
+\newblock {\em European Journal of Operational Research}, 198(3):936 -- 942,
+  2009.
+
+\bibitem{Hutzschenreuter:2008p42}
+Anke~K. Hutzschenreuter, Peter A.~N. Bosman, Ilona Blonk-Altena, Jan van Aarle,
+  and Han La~Poutr\'{e}.
+\newblock Agent-based patient admission scheduling in hospitals.
+\newblock In {\em AAMAS '08: Proceedings of the 7th international joint
+  conference on Autonomous agents and multiagent systems}, pages 45--52,
+  Richland, SC, 2008. International Foundation for Autonomous Agents and
+  Multiagent Systems.
+
+\bibitem{Jones:2008p338}
+Spencer~S. Jones and R.~Scott Evans.
+\newblock An agent based simulation tool for scheduling emergency department
+  physicians.
+\newblock In {\em AMIA Annual Symposium proceedings, AMIA Symposium}, pages
+  338--342, 2008.
+
+\bibitem{Laskowski:2008p25}
+Marek Laskowski and Shamir Mukhi.
+\newblock Agent-based simulation of emergency departments with patient
+  diversion.
+\newblock In {\em eHealth}, pages 25--37, 2008.
+
+\bibitem{Stainsby:2009p536}
+Hayden Stainsby, Manel Taboada, and Emilio Luque.
+\newblock Towards an agent-based simulation of hospital emergency departments.
+\newblock In {\em SCC '09: Proceedings of the 2009 IEEE International
+  Conference on Services Computing}, pages 536--539, Washington, DC, USA, 2009.
+  IEEE Computer Society.
+
+\end{thebibliography}

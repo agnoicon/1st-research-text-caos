@@ -1,0 +1,83 @@
+
+\section{Discussion}
+
+The most relevant conclusions of this chapter are the following:
+\begin{enumerate}
+\item The two-phase optimisation via simulation of healthcare Emergency
+Departments proposed was applied to analyse the administrative strategies
+leading to optimum decisions about the physical and human resources
+of an ED. In particular, the impact on the economics and the productivity
+of Sabadell Hospital ED of different sanitary staff configuration
+(v.gr., doctors, triage nurses, admission personnel, emergency nurses,
+and x-ray technicians) were analysed.\\
+
+\item The evaluation of the proposal included the \textit{simulation models};
+the \textit{decision variables} and\textit{ workloads} used as inputs
+of the simulation models; as well as the \textit{metrics} used to
+asses the benefits of the proposal. This metrics were defined in term
+of three indexes: patient length of stay (LoS) in the ED; number of
+attended patients per day (Throughput); and a compound index, the
+product of the cost of a given sanitary staff configuration times
+patient length of stay (CLoS).\\
+
+\item From interviews with the managers at the EDs of Sabadell hospital
+(which provides healthcare services to an average of 160,000 patients/year),
+it was found that a basic sanitary of its ED staff is composed by:
+9 possible combinations of admission personnel (junior/senior); 9
+possible combinations of triage nurses (junior/senior); 5 possible
+combinations of emergency nurses (junior/senior); 5 possible combinations
+of x-ray technicians (junior/senior); and 14 possible combinations
+of doctors (junior/senior) in which a set of examined cases for each
+type of staff were analysed as a discrete combinatorial problem.\\
+
+\item In order to analyse the performance of the ED, the real average four
+hundred incoming patients that daily arrive to the ED of Sabadell
+hospital was divided into four different workload scenarios, up to:
+4, 9, 13, and 17 incoming patients hourly, i.e., up to 96, 216, 312,
+and 408, respectively for 24hrs.\\
+
+\item All simulations of the ED optimization cases analysed in this work
+were carried out in a Linux cluster of the CAOS Department of the
+UAB, which has 608 computing cores and 2.2TB of RAM, that is composed
+of: 9 nodes of a dual-4 core Intel Xeon E5430, 2.6GHz, 16GB RAM; 1
+node of 2xdual-6 core Intel Xeon E5645, 2.4GHz, 24GB RAM; and 8 nodes
+of 4x16-cores AMD Opteron ``Interlagos'', 1.66GHz, 256 GB RAM, all
+in a switched 1GigE network.\\
+
+\item The evaluation of the proposed methodology aimed to confirm the correct
+operation of both the pipeline approach (PA) and the MC plus the K-means
+methods, described in \ref{chap3:Math}. To this end, we have first
+performed the exhaustive search (ES) to use as baseline method. The
+second step of this evaluation consisted on applying the coarse grained
+phase, using either the PA, the MC plus K-means methods, or both.
+Finally, the fine grained phase was applied in the promising regions
+found in the previous step.\\
+
+\item To evaluate the methodology proposed, first the case study A was performed
+using the agent-based ED simulator version 1.1. Then the case study
+B was performed using the agent-based ED simulator version 1.2. In
+both cases, the three metrics and the four different workloads stated
+above were tested, and the period simulated was 24 hrs., i.e., one
+day of functioning of the ED, in all the experiments.\\
+
+\item After separately applying for cases A and B either the pipeline approach,
+PA or the Monte Carlo, MC, plus the K-means methods, or both the \textquotedblleft{}reduced
+exhaustive search\textquotedblright{}, the optimum found per each
+method for their associated average LoS, average Throughput, and average
+CLoS were the same.\\
+
+\item Using the pipeline approach, PA, as the coarse grained phase of the
+proposed methodology and then the \textquotedblleft{}reduced exhaustive
+search\textquotedblright{} in the promising regions previously found,
+our proposal obtained an improvement up to 95.6\% in the computing
+time, whereas using the Monte Carlo, MC, plus the K-means methods
+and then the \textquotedblleft{}reduced exhaustive search\textquotedblright{}
+in the promising regions previously found, our proposal obtained an
+improvement up to 72\% in the computing time, both compared with the
+exhaustive search used.
+\item The optimum solution not always is the best option; it is important
+to take into account the sort of optimum when the solutions are going
+to be applied into real problems or decision support systems.
+\end{enumerate}
+
+\end{document}
