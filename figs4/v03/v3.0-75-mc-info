@@ -1,0 +1,20 @@
+array means size = 1134
+
+ mean = 8370618.50793651 
+ std-dev = 2937003.63886828 
+ 
+ elementos de la muestra 25 # aleatorios : sustituye < 
+
+ mean (25*0)= 8331787.6 	 std-dev (25*0) = 2585558.51607746 
+ array patients size = 25
+array randoms size = 25 290 415 55 1124 864 779 991 299 406 687 1023 575 379 830 903 877 996 896 1124 54 1050 85 429 1123 782 
+
+ elementos de la muestra 50 # aleatorios : permanece mean (guardado)= 8331787.6 	 std-dev (guardado) = 2585558.51607746 	 mean (25*1)= 8811177.8 	 std-dev (25*1) = 2919925.65402998 
+ 
+ elementos de la muestra 75 # aleatorios : permanece mean (guardado)= 8331787.6 	 std-dev (guardado) = 2585558.51607746 	 mean (25*2)= 8517304.4 	 std-dev (25*2) = 3000351.29747368 
+ 
+ elementos de la muestra 100 # aleatorios : permanece mean (guardado)= 8331787.6 	 std-dev (guardado) = 2585558.51607746 	 mean (25*3)= 8667716 	 std-dev (25*3) = 3065158.97768992 
+ 
+ mean = 8370618.50793651 
+ std-dev = 2937003.63886828 
+ 

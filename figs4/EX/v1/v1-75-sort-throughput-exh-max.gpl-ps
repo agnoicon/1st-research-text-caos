@@ -1,0 +1,18 @@
+set encoding iso_8859_15
+set terminal postscript enhanced color 
+#set terminal png size 800,600 enhanced font "Helvetica,80"
+set output "v1-75-sort-throughput.ps"
+
+stats  'v1-75-sort-throughput' u 15 nooutput
+
+set title "Throughput of the ED"
+set xrange [0:6000]
+set yrange [(STATS_min)-((STATS_min)*.05):STATS_max+((STATS_max)*.05)]
+set xlabel "Cost"
+set ylabel "Number of attended patients (throughput)"
+
+set multiplot
+
+plot 'v1-75-sort-throughput'  using 7:($15) with points pt 7 ps 1 lc 3 notitle
+plot "<(head -1 v1-75-sort-throughput)"  using 7:($15)  with points pt 3 ps 2.5 lc 1 notitle
+

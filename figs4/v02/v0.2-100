@@ -1,0 +1,35 @@
+data dimensionality:  2 
+Value of Kmax is: 3
+Clustering for K = 2
+ATTENTION: Intrinsic dimensionality of your data is less than what is apparent from your data file.  You might get better clustering results after some data conditioning.
+Clustering for K = 3
+ATTENTION: Intrinsic dimensionality of your data is less than what is apparent from your data file.  You might get better clustering results after some data conditioning.
+
+Displaying final clusters for best K (= 2) :
+
+
+Cluster 1 (56 records):
+  1088  1089  1097  1099  1159  1166  1177  1179  1187  1191  1196  1199  1227  1228  1233  1239  1248  1255  1257  1268  1275  1283  1288  1289  1295  1299  1327  1328  1334  1342  1344  1346  1356  1363  1384  1389  1394  1398  1417  1426  1433  1437  1441  1445  1447  1451  1459  1464  897  898  966  968  981  992  995  996
+
+Cluster 2 (60 records):
+  1048  1055  1056  1063  1067  1073  1078  1085  1114  1119  1124  1137  1138  1145  1155  1156  1157  1211  1213  1216  1222  1223  1332  399  483  485  491  495  647  648  665  671  678  682  769  777  779  788  793  839  848  857  863  867  871  879  883  884  915  922  924  928  929  931  932  933  939  944  953  957
+
+
+Cluster 1 (56 records):
+Cluster center 1: 2262.5000 111.4286
+
+Cluster 2 (60 records):
+Cluster center 2: 3159.1667 159.1000
+
+Best clustering achieved for K=2 with QoC = 0.271317866911096
+QoC values array for different K starting with K=2:  0.271317866911096 0.294147285784059
+Writing cluster 1 to file Cluster1.dat
+Writing cluster 2 to file Cluster2.dat
+Cluster:   1088 1089 1097 1099 1159 1166 1177 1179 1187 1191 1196 1199 1227 1228 1233 1239 1248 1255 1257 1268 1275 1283 1288 1289 1295 1299 1327 1328 1334 1342 1344 1346 1356 1363 1384 1389 1394 1398 1417 1426 1433 1437 1441 1445 1447 1451 1459 1464 897 898 966 968 981 992 995 996
+
+Cluster:   1048 1055 1056 1063 1067 1073 1078 1085 1114 1119 1124 1137 1138 1145 1155 1156 1157 1211 1213 1216 1222 1223 1332 399 483 485 491 495 647 648 665 671 678 682 769 777 779 788 793 839 848 857 863 867 871 879 883 884 915 922 924 928 929 931 932 933 939 944 953 957
+
+The best value of K: 2
+Show below are K on the left and the QoC values on the right
+ 2  =>  0.271317866911096
+ 3  =>  0.294147285784059

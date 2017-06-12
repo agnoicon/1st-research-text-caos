@@ -1,0 +1,35 @@
+data dimensionality:  2 
+Value of Kmax is: 3
+Clustering for K = 2
+ATTENTION: Intrinsic dimensionality of your data is less than what is apparent from your data file.  You might get better clustering results after some data conditioning.
+Clustering for K = 3
+ATTENTION: Intrinsic dimensionality of your data is less than what is apparent from your data file.  You might get better clustering results after some data conditioning.
+
+Displaying final clusters for best K (= 2) :
+
+
+Cluster 1 (14 records):
+  1078  1089  1191  1395  145  253  311  337  457  698  847  857  899  933
+
+Cluster 2 (10 records):
+  1026  1055  1062  1319  1353  1427  1445  498  543  819
+
+
+Cluster 1 (14 records):
+Cluster center 1: 3471.4286 960400.1429
+
+Cluster 2 (10 records):
+Cluster center 2: 3110.0000 1262814.0000
+
+Best clustering achieved for K=2 with QoC = 0.196651003358226
+QoC values array for different K starting with K=2:  0.196651003358226 0.294028111711588
+Writing cluster 1 to file Cluster1.dat
+Writing cluster 2 to file Cluster2.dat
+Cluster:   1078 1089 1191 1395 145 253 311 337 457 698 847 857 899 933
+
+Cluster:   1026 1055 1062 1319 1353 1427 1445 498 543 819
+
+The best value of K: 2
+Show below are K on the left and the QoC values on the right
+ 2  =>  0.196651003358226
+ 3  =>  0.294028111711588

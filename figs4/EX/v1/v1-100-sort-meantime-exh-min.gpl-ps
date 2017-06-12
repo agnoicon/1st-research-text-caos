@@ -1,0 +1,18 @@
+set encoding iso_8859_15
+set terminal postscript enhanced color 
+#set terminal png size 800,600 enhanced font "Helvetica,80"
+set output "v1-100-sort-meantime.ps"
+
+stats  'v1-100-sort-meantime' u 16 nooutput
+
+set title "Average length of stay (LoS)"
+set xrange [0:6000]
+set yrange [(STATS_min/1000)-((STATS_min/1000)*.05):STATS_max/1000+((STATS_max/1000)*.05)]
+set xlabel "Cost"
+set ylabel "Time (hrs)"
+
+set multiplot
+
+plot 'v1-100-sort-meantime'  using 7:($16/1000) with points pt 7 ps 1 lc 3 notitle
+plot "<(head -1 v1-100-sort-meantime)"  using 7:($16/1000)  with points pt 3 ps 2.5 lc 1 notitle
+

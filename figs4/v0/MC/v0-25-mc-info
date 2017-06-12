@@ -1,0 +1,50 @@
+data dimensionality:  2 
+Value of Kmax is: 5
+Clustering for K = 2
+ATTENTION: Intrinsic dimensionality of your data is less than what is apparent from your data file.  You might get better clustering results after some data conditioning.
+Clustering for K = 3
+ATTENTION: Intrinsic dimensionality of your data is less than what is apparent from your data file.  You might get better clustering results after some data conditioning.
+Clustering for K = 4
+ATTENTION: Intrinsic dimensionality of your data is less than what is apparent from your data file.  You might get better clustering results after some data conditioning.
+Clustering for K = 5
+ATTENTION: Intrinsic dimensionality of your data is less than what is apparent from your data file.  You might get better clustering results after some data conditioning.
+
+Displaying final clusters for best K (= 3) :
+
+
+Cluster 1 (36 records):
+  1048  1063  1078  1088  1114  1119  1124  1137  1138  1145  1155  1156  1157  1211  1223  399  483  485  671  678  769  779  793  839  848  863  867  879  884  915  924  928  931  933  944  957
+
+Cluster 2 (27 records):
+  1089  1097  1099  1159  1191  1196  1227  1233  1239  1248  1255  1257  1275  1283  1289  1291  1295  1299  1334  1346  1384  1394  898  968  992  995  996
+
+Cluster 3 (8 records):
+  1327  1344  1389  1398  1433  1437  1445  1447
+
+
+Cluster 1 (36 records):
+Cluster center 1: 3143.0556 545.4952
+
+Cluster 2 (27 records):
+Cluster center 2: 2277.7778 705.5416
+
+Cluster 3 (8 records):
+Cluster center 3: 2043.7500 2304.9756
+
+Best clustering achieved for K=3 with QoC = 0.345187727859453
+QoC values array for different K starting with K=2:  0.389853482945909 0.345187727859453 0.414647384762923 0.482279916840019
+Writing cluster 1 to file Cluster1.dat
+Writing cluster 2 to file Cluster2.dat
+Writing cluster 3 to file Cluster3.dat
+Cluster:   1048 1063 1078 1088 1114 1119 1124 1137 1138 1145 1155 1156 1157 1211 1223 399 483 485 671 678 769 779 793 839 848 863 867 879 884 915 924 928 931 933 944 957
+
+Cluster:   1089 1097 1099 1159 1191 1196 1227 1233 1239 1248 1255 1257 1275 1283 1289 1291 1295 1299 1334 1346 1384 1394 898 968 992 995 996
+
+Cluster:   1327 1344 1389 1398 1433 1437 1445 1447
+
+The best value of K: 3
+Show below are K on the left and the QoC values on the right
+ 2  =>  0.389853482945909
+ 3  =>  0.345187727859453
+ 4  =>  0.414647384762923
+ 5  =>  0.482279916840019
